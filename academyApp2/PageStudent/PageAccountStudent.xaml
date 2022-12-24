@@ -1,0 +1,30 @@
+﻿<Page x:Class="academyApp2.PageStudent.PageAccountStudent"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:academyApp2.PageStudent"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="800"
+      Title="PageAccountStudent">
+
+    <Grid>
+        <StackPanel Margin="0,100,500,0">
+            <StackPanel Margin="5" Orientation="Horizontal">
+                <Label Content="Имя пользователя: "/>
+                <Label Content="Имя"/>
+            </StackPanel>
+            <StackPanel Margin="5" Orientation="Horizontal">
+                <Label Content="Логин: "/>
+                <Label Content="Логин"/>
+            </StackPanel>
+            <StackPanel Margin="5" Orientation="Horizontal">
+                <Label Content="Последний вход: "/>
+                <Label Content="Время"/>
+            </StackPanel>
+            <Button  Content="Выход" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Click="Button_Click" />
+        </StackPanel>
+        
+
+    </Grid>
+</Page>
